@@ -1,0 +1,3 @@
+[submodule "lib/hash-circuits"]
+	path = lib/hash-circuits
+	url = https://github.com/bkomuves/hash-circuits.git

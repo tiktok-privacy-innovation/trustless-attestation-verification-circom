@@ -1,0 +1,16 @@
+{
+    "name": "tavern-circuit",
+    "version": "1.0.0",
+    "description": "Trustless Attestation Verification with Zero Knowledge Proof",
+
+    "license": "GPL",
+    "scripts": {
+      "test": "NODE_OPTIONS='--max-old-space-size=51200' npx mocha --timeout 1000000000"
+    },
+    "dependencies": {
+        "circomlib": "^2.0.5",
+        "passport-zk-circuits": "github:rarimo/passport-zk-circuits#c7fcdd1",
+        "ecdsa-p384-circom": "github:crema-labs/ecdsa-p384-circom#1a6c09b",
+        "circom-pairing": "github:SleepingShell/circom-pairing#32d3754"
+    }
+  }
